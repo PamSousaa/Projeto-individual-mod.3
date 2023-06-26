@@ -13,4 +13,4 @@ UsoTecnologia : Estabelece a relação entre empresas e tecnologias, registrando
 
 Colaborador : Permite o cadastro dos colaboradores, incluindo seu ID, nome e ID da empresa à qual estão associados.
 
-Assim tornando mais fácil a compreensão de como montrar no Scrip SQL 
+Assim tornando mais fácil a compreensão de como montar no Scrip SQL 
