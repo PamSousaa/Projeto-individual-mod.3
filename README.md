@@ -5,9 +5,12 @@ bem como para acompanhar informações sobre seus colaboradores. Neste repositó
 
 O banco de dados é composto pelas seguintes entidades:
 
-
 Empresa : Armazena informações sobre as empresas parceiras, incluindo seu CNPJ, nome, endereço e telefone.
+
 Tecnologia : Registre as tecnologias disponíveis, com atributos como ID, nome e área.
+
 UsoTecnologia : Estabelece a relação entre empresas e tecnologias, registrando quais tecnologias cada empresa está utilizando.
+
 Colaborador : Permite o cadastro dos colaboradores, incluindo seu ID, nome e ID da empresa à qual estão associados.
+
 Assim tornando mais fácil a compreensão de como montrar no Scrip SQL 
