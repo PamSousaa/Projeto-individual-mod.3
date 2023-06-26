@@ -7,26 +7,30 @@ Tecnologia
 2. Quais são os principais campos e seus respectivos tipos?
    Os campos são:
 _____ Empresa :     
-      ID Inteiro
+      ID Inteiro (chave primaria referenciando Empresa.ID)
       CNPJ: Texto
       Nome:Texto
       Endereço: Texto
       Telefone: Texto
       Mail: Texto
+      ID_Tecnologia: Inteiro  (chave estrangeira referenciando Tecnologia.ID)
 
 _____Tecnologia :
-     ID:Inteiro
+     ID:Inteiro (chave primaria referenciando Tecnologia.ID)
      Nome: Texto
      Área: Texto
+     ID_Empresa: Inteiro (chave estrangeira referenciando Empresa.ID)
 
 _____Uso Tecnologia :
-     ID: Inteiro 
+     ID_Tecnologia: Inteiro  (chave primaria referenciando Tecnologia.ID)
      ID_Empresa: Inteiro (chave estrangeira referenciando Empresa.ID)
-     ID_Tecnologia: Inteiro  (chave estrangeira referenciando Tecnologia.ID)
+     ID_Colaborador: Inteiro (chave estrangeira referenciando Colaborador.ID)
 
 _____Colaborador:
-     ID: Inteiro
+     ID: Inteiro (chave primaria referenciando Colaborador.ID)
      Nome: texto 
+     E-Mail: Texto
+     Telefone: Inteiro
      ID_Empresa: Inteiro  (chave estrangeira referenciando Empresa.ID)
 
 3. Como essas entidades estão relacionadas?
