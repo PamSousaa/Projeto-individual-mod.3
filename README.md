@@ -1,16 +1,11 @@
-# Projeto-individual-mod.3
-Este é um  projeto individual o 'RESILIADATA'!
-Ele  é um sistema que foi desenvolvido para auxiliar na avaliação das tecnologias utilizadas pelas empresas parceiras, 
-bem como para acompanhar informações sobre seus colaboradores. Neste repositório, você encontrará a implementação do banco de dados que sustenta o RESILIADATA.
+O RESILIADATA é um sistema desenvolvido para auxiliar empresas parceiras na gestão de informações sobre as tecnologias utilizadas por elas e seus colaboradores. Com o RESILIADATA, as empresas podem ter uma visão clara das tecnologias adotadas em suas operações e acompanhar o perfil dos colaboradores associados a cada uma delas.
 
-O banco de dados é composto pelas seguintes entidades:
+Este repositório contém a implementação do banco de dados utilizado pelo RESILIADATA. O banco de dados é composto por quatro entidades principais: Empresa, Tecnologia, UsoTecnologia e Colaborador.
 
-Empresa : Armazena informações sobre as empresas parceiras, incluindo seu CNPJ, nome, endereço e telefone.
+A entidade Empresa armazena informações relevantes sobre as empresas parceiras, como CNPJ, nome, endereço e telefone. Esses dados permitem identificar e diferenciar as empresas no sistema.
 
-Tecnologia : Registre as tecnologias disponíveis, com atributos como ID, nome e área.
+A entidade Tecnologia registra as tecnologias disponíveis para uso, contendo informações como ID, nome e área. Com isso, é possível cadastrar e manter um catálogo atualizado das tecnologias relevantes para as empresas parceiras.
 
-UsoTecnologia : Estabelece a relação entre empresas e tecnologias, registrando quais tecnologias cada empresa está utilizando.
+A entidade UsoTecnologia estabelece a relação entre as empresas e as tecnologias que elas utilizam. Através dessa entidade, é possível registrar quais tecnologias estão associadas a cada empresa, permitindo um acompanhamento preciso das tecnologias adotadas por cada parceiro.
 
-Colaborador : Permite o cadastro dos colaboradores, incluindo seu ID, nome e ID da empresa à qual estão associados.
-
-Assim tornando mais fácil a compreensão de como montar no Scrip SQL 
+A entidade Colaborador permite cadastrar informações sobre os colaboradores de cada empresa parceira. Com dados como ID, nome , e-mail,  telefone e ID da empresa associada, é possível rastrear e gerenciar os colaboradores vinculados a cada empresa, facilitando a análise do perfil dos membros de cada equipe.
