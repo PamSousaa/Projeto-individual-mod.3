@@ -4,6 +4,8 @@ Ele  é um sistema que foi desenvolvido para auxiliar na avaliação das tecnolo
 bem como para acompanhar informações sobre seus colaboradores. Neste repositório, você encontrará a implementação do banco de dados que sustenta o RESILIADATA.
 
 O banco de dados é composto pelas seguintes entidades:
+
+
 Empresa : Armazena informações sobre as empresas parceiras, incluindo seu CNPJ, nome, endereço e telefone.
 Tecnologia : Registre as tecnologias disponíveis, com atributos como ID, nome e área.
 UsoTecnologia : Estabelece a relação entre empresas e tecnologias, registrando quais tecnologias cada empresa está utilizando.
