@@ -1,0 +1,42 @@
+1. Quais são as entidades necessárias?
+  Para desenvolver esse banco de dados vamos utiliza três entidades:
+Empresa
+Colaborador
+Tecnologia
+
+2. Quais são os principais campos e seus respectivos tipos?
+   Os campos são:
+_____ Empresa :     
+      ID Inteiro
+      CNPJ: Texto
+      Nome:Texto
+      Endereço: Texto
+      Telefone: Texto
+      Mail: Texto
+
+_____Tecnologia :
+     ID:Inteiro
+     Nome: Texto
+     Área: Texto
+
+_____Uso Tecnologia :
+     ID: Inteiro 
+     ID_Empresa: Inteiro (chave estrangeira referenciando Empresa.ID)
+     ID_Tecnologia: Inteiro  (chave estrangeira referenciando Tecnologia.ID)
+
+_____Colaborador:
+     ID: Inteiro
+     Nome: texto 
+     ID_Empresa: Inteiro  (chave estrangeira referenciando Empresa.ID)
+
+3. Como essas entidades estão relacionadas?
+   Temos as seguintes relações:
+
+    Empresa (1) ------ (*) UsoTecnologia
+    Tecnologia (1) ------ (*) UsoTecnologia
+    Empresa (1) ------ (*) Colaborador
+
+ 4. Simule 2 registros para cada entidade. 
+    A simulação esta em forma de print
+ 
+
